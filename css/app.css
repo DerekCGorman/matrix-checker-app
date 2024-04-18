@@ -51,7 +51,7 @@ input{
 
 h2{
     font-weight: 100;
-    margin: 60px;
+    margin: 10px;
     font-size: 40px;
 }
 
@@ -74,7 +74,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 80px;
+    margin: 20px;
 }
 
 .properties{
