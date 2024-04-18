@@ -156,5 +156,10 @@ input[type=number] {
 }
 
 @media (max-width: 1200px){
-
+    .properties{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
