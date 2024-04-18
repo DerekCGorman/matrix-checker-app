@@ -155,7 +155,7 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-@media (max-width: 600px){
+@media (max-width: 1000px){
     #main-container{
         width: 70%;
         height: 100%;
