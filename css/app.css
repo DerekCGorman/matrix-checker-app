@@ -1,0 +1,156 @@
+:root{
+    --bg-color: #eee;
+
+    --btn-hover: #72DDF7;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bg-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding: 16px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid var(--btn-hover);
+    margin: 20px;
+}
+
+.hide{
+    visibility: hidden;
+    transition-duration: 0ms;
+}
+
+button:hover{
+    background-color: var(--btn-hover);
+    /* transform: scale(1.2); */
+}
+
+input{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+
+h2{
+    font-weight: 100;
+    margin: 60px;
+    font-size: 40px;
+}
+
+h3{
+    text-align: center;
+    margin: 60px;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    text-wrap: wrap;
+    width: 700px;
+}
+
+.words{
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 80px;
+}
+
+.properties{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border-radius: 20px;
+    margin: 60px;
+    width: 100%;
+    height: 100px;
+}
+
+.true{
+    color: greenyellow;
+}
+
+.false{
+    color: rgb(247, 76, 76);
+}
+
+.flex-col{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main-container{
+    position: relative;
+    width: 80%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: orange; */
+}
+
+.matrix{
+    position: relative;
+    width: 300px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+    /* background-color: orange; */
+}
+
+.bracket{
+    position: absolute;
+    font-size: 210px;
+    /* background-color: red; */
+}
+
+#left-bracket{
+    left: 20px;
+    bottom: -25px;
+}
+
+#right-bracket{
+    right: 20px;
+    bottom: -25px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
