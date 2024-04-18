@@ -124,7 +124,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 40px;
+    margin: 15px;
     /* background-color: orange; */
 }
 
@@ -162,7 +162,7 @@ input[type=number] {
         align-items: center;
         flex-direction: column;
         height: 100%;
-        width: 40%;
+        width: 60%;
     }
 
     .buttons{
