@@ -161,5 +161,18 @@ input[type=number] {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        height: 100%;
+        width: 40%;
+    }
+
+    .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    p{
+        width: 60%;
     }
 }
